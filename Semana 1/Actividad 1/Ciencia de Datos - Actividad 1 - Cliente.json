@@ -1,0 +1,10 @@
+{
+  "id_cliente": "CLT200326",
+  "nombre": "Masiosare Noconozcosuapellido",
+  "correo": "masiosareunextrañoenemigo@yahoo.com",
+  "direccion": {
+    "ciudad": "Querétaro de Arteaga",
+    "estado": "Santiago de Querétaro"
+  },
+  "historial_compras": ["HC000000354", "HC000000380"]
+}
