@@ -1,0 +1,12 @@
+{
+  "id_venta": "VTA0999067",
+  "id_cliente": "CLT200326",
+  "fecha": "31/02/2075",
+  "productos": [
+    {
+      "id_producto": "PDT20000091",
+      "cantidad_producto": 17
+    }
+  ],
+  "total": 24650
+}
