@@ -21,3 +21,7 @@ Los data warehouse son sistemas que almacenan datos estructurados varios de vari
 | Esquema "on-write" con una preparación de datos previa | Esqurma "on-read" con una preparación de datos a petición |
 
 Un data mart es un subconjunto que se especializa en un data warehouse que se enfoca en una unidad principal de negocio que evita la necesidad de navegar por el almacén completo
+
+<img width="1920" height="1080" alt="Diagrama Diferencias Arquitecturas de Datos" src="https://github.com/user-attachments/assets/ffd9b235-1f95-40ae-b194-89c9a902836d" />
+
+## Actividad 2.2 - Introducción a MongoDB
