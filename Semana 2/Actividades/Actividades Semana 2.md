@@ -25,3 +25,11 @@ Un data mart es un subconjunto que se especializa en un data warehouse que se en
 <img width="1920" height="1080" alt="Diagrama Diferencias Arquitecturas de Datos" src="https://github.com/user-attachments/assets/ffd9b235-1f95-40ae-b194-89c9a902836d" />
 
 ## Actividad 2.2 - Introducción a MongoDB
+
+<img width="1892" height="907" alt="Captura de pantalla 2026-03-24 094639" src="https://github.com/user-attachments/assets/5442f254-0b1b-4945-aeaa-cce798b0a3b3" />
+
+<img width="1919" height="1023" alt="Captura de pantalla 2026-03-24 094656" src="https://github.com/user-attachments/assets/9bab856a-6dc2-429f-be8f-c72fe92100cb" />
+
+<img width="1920" height="1080" alt="Ciencia de Datos - Actividad 2 2 Base de Datos" src="https://github.com/user-attachments/assets/a35aa49c-b22d-4a94-be72-206988011f03" />
+
+
