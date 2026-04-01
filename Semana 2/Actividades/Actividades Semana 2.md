@@ -34,3 +34,5 @@ Un data mart es un subconjunto que se especializa en un data warehouse que se en
 
 ## Actividad 2.3 - Operaciones CRUD en MongoDB
 
+https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Actividades/Actividad%202.3.ipynb
+
