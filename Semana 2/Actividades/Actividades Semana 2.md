@@ -36,3 +36,4 @@ Un data mart es un subconjunto que se especializa en un data warehouse que se en
 
 https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Actividades/Actividad%202.3.ipynb
 
+## Actividad 2.4 - Modelado de Datos NoSQL
