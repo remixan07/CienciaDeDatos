@@ -37,3 +37,63 @@ Un data mart es un subconjunto que se especializa en un data warehouse que se en
 https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Actividades/Actividad%202.3.ipynb
 
 ## Actividad 2.4 - Modelado de Datos NoSQL
+
+En este sistema basado en un modelo NoSQL, la información se organiza en documentos dentro de colecciones, y cada documento representa una entidad (usuario, libro, préstamo, etc.), la cuál, es conectada con otros mediante identificadores
+
+Usuarios - Se relacionan con Préstamos
+Libros - Se relaciona con Autores, Categorías, y Préstamos
+Autores - Se relaciona con Libros
+Categorías - Se relaciona con Libros
+Préstamos - Se relaciona Usuarios con Libros
+
+## (Usuarios):
+{
+  "_id": "ObjectId",
+  "nombre": "string",
+  "correo": "string",
+  "fecha_registro": "date",
+  "activo": "boolean"
+}
+
+## (Libros):
+{
+  "_id": "ObjectId",
+  "titulo": "string",
+  "isbn": "string",
+  "anio_publicacion": "number",
+  "autor_id": "ObjectId",
+  "categoria_id": "ObjectId",
+  "disponible": "boolean"
+}
+
+## (Autores):
+{
+  "_id": "ObjectId",
+  "nombre": "string",
+  "nacionalidad": "string"
+}
+
+## (Categorías):
+{
+  "_id": "ObjectId",
+  "nombre": "string",
+  "descripcion": "string"
+}
+
+## (Préstamos):
+{
+  "_id": "ObjectId",
+  "usuario_id": "ObjectId",
+  "libro_id": "ObjectId",
+  "fecha_prestamo": "date",
+  "fecha_devolucion": "date",
+  "estado": "string"
+}
+
+ObjectID - Identificador
+String - Líneas de Texto
+Number - Valor Numérico
+Booleano - Verdadero / Falso
+Date - Fecha
+
+Este modelo es eficiente, flexible, y escalable porque separa la información en colecciones claras (evitando redundancia y facilitando organización), uso de IDs, relación de datos, permite agregar colecciones, y facilitar consultas; administrándolo todo de una manera ordenada, eficiente, y adaptable
