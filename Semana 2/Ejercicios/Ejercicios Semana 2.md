@@ -70,3 +70,7 @@ https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Ejercicios/Ejer
 ## Ejercicio 2.6 - Consultas Avanzadas en MongoDB
 
 https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Ejercicios/Ekjercicio%202.6.ipynb
+
+## Ejercicio 2.7 - Tipos de Bases de Datos NoSQL
+
+- MongoDB es un sistema de gestión NoSQL de código abierto que sirve para almacenar datos de una manera más parecida a JSON
