@@ -60,3 +60,7 @@ GROUP BY departamentos.nombre;
 https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Ejercicios/Ejercicio%202.3.ipynb
 
 ## Ejercicio 2.4 - Estructuras de Datos en Python
+
+## Ejercicio 2.5 - Estructuras de Datos en Python
+
+https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Ejercicios/Ejercicio%202.5.ipynb
