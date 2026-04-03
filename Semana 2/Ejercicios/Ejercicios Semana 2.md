@@ -73,4 +73,9 @@ https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Ejercicios/Ekje
 
 ## Ejercicio 2.7 - Tipos de Bases de Datos NoSQL
 
+| Nombre | Qué Es | Se Utiliza | Ventajas | Desventajas |
+| :--- | :---: | :---: | :---: | ---: |
+| Lorem ipsum dolor mucho dolor | TDA | Me voy a Dormir | Necesito Café | AAAAAAA |
+
+
 - MongoDB es un sistema de gestión NoSQL de código abierto que sirve para almacenar datos de una manera más parecida a JSON
