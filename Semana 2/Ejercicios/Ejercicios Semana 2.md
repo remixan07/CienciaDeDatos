@@ -7,3 +7,8 @@ Maestr@: Ricardo Alfredo Monroy Rodríguez
 
 </sup></sub>
 # Ejercicios Semana 2
+
+## Ejercicio 2.1- Consultas Básicas
+
+sql
+SELECT * FROM empleados;
