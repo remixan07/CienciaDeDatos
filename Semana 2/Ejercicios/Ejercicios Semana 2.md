@@ -57,3 +57,6 @@ GROUP BY departamentos.nombre;
 
 ## Ejercicio 2.3 - Manipulación de JSON
 
+https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Ejercicios/Ejercicio%202.3.ipynb
+
+## Ejercicio 2.4 - Estructuras de Datos en Python
