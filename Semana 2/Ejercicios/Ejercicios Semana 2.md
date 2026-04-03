@@ -66,3 +66,7 @@ https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Ejercicios/Ejer
 ## Ejercicio 2.5 - Operaciones CRUD
 
 https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Ejercicios/Ejercicio%202.5.ipynb
+
+## Ejercicio 2.6 - Consultas Avanzadas en MongoDB
+
+https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Ejercicios/Ekjercicio%202.6.ipynb
