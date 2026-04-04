@@ -8,4 +8,4 @@ Maestr@: Ricardo Alfredo Monroy Rodríguez
 </sup></sub>
 # Actividad 2
 
-Link
+[Link](https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Actividad%202/Actividad%202%20(Recuperado).ipynb)
