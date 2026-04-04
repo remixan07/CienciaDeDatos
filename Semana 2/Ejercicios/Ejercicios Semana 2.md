@@ -74,7 +74,7 @@ https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Ejercicios/Ekje
 ## Ejercicio 2.7 - Tipos de Bases de Datos NoSQL
 
 | Nombre | Qué Es | Se Utiliza | Ventajas | Desventajas |
-| :--- | :---: | :---: | :---: | ---: |
+| :---: | :---: | :---: | :---: | :---: |
 | MongoDB | Almacena datos de manera parecida a JSON | Obtener flexibilidad en los fdatos | Estructura flexible y facil de escalar | Puede duplicar datos |
 | CouchDB | Almacena datos sincronizados similar a JSON | Datos sincronizados o sin conexión | Trabajo online y replica datos | Mayor lentitud |
 | Redis | Base de datos en memoria rápida | Aplicaiones en tiempo real | Rápida y soporta estructuras simples | Los datos crashean constantemente |
@@ -82,3 +82,6 @@ https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Ejercicios/Ekje
 | Cassandra | Base de grandes dartos | Grandes cantidades de datos | Tolerante a fallos y escalable | Difícil de configurar y limitada |
 | HBase | Basse de Datos masivos | Análisis Big data | Grandes volúmenes y escalable | Compleja y gran infraestructura |
 | Neo4j | Base de datos en nodos y relaciones | Grandes realciones | Consultas rápidas | No recomendada en datos simples |
+
+## Ejercicio 2.8 - Arquitecturas de Almacenamiento
+
