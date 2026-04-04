@@ -85,3 +85,10 @@ https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Ejercicios/Ekje
 
 ## Ejercicio 2.8 - Arquitecturas de Almacenamiento
 
+Los data lakes son repositorios que almacenan datos en crudo para exploraciones de datos, permitiendo escalabilidad e ingesta rápida de datos
+
+Los data warehouse son sistemas que almacenan datos estructurados varios de varias fuentes que mantienen un registro histórico para permitir consultas rápidas y facilitar la analítica
+
+El OLTP sirve más para un procesamiento en transaccicones manejar operaciones actuales y manejar operaciones diarias; mientras que el OLTP es más recomendado para el procesamiento analítico de datos históricos, y la toma de decisiones
+
+El ETL es unn proceso de integración de datos que permite el obtener datos de diversas fuentes. limpiarlos y organizarlos, y guaradrlos en un sistema
