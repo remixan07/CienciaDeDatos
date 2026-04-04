@@ -75,7 +75,10 @@ https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%202/Ejercicios/Ekje
 
 | Nombre | Qué Es | Se Utiliza | Ventajas | Desventajas |
 | :--- | :---: | :---: | :---: | ---: |
-| Lorem ipsum dolor mucho dolor | TDA | Me voy a Dormir | Necesito Café | AAAAAAA |
-
-
-- MongoDB es un sistema de gestión NoSQL de código abierto que sirve para almacenar datos de una manera más parecida a JSON
+| MongoDB | Almacena datos de manera parecida a JSON | Obtener flexibilidad en los fdatos | Estructura flexible y facil de escalar | Puede duplicar datos |
+| CouchDB | Almacena datos sincronizados similar a JSON | Datos sincronizados o sin conexión | Trabajo online y replica datos | Mayor lentitud |
+| Redis | Base de datos en memoria rápida | Aplicaiones en tiempo real | Rápida y soporta estructuras simples | Los datos crashean constantemente |
+| DyanmoDB | AWS en la nube |Tener disponibilidad escalable automática | Buen rendimmiento | Necesita AWS y es costosa |
+| Cassandra | Base de grandes dartos | Grandes cantidades de datos | Tolerante a fallos y escalable | Difícil de configurar y limitada |
+| HBase | Basse de Datos masivos | Análisis Big data | Grandes volúmenes y escalable | Compleja y gran infraestructura |
+| Neo4j | Base de datos en nodos y relaciones | Grandes realciones | Consultas rápidas | No recomendada en datos simples |
