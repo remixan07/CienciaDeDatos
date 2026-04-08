@@ -84,3 +84,43 @@ while True:
 ## Ejercicio 3: Funciones
 
 ```
+radio = float(input("Inserte el radio de tu circulo: "))
+pi = 3.1415926585
+radio_cuadrado = radio * radio
+area = pi * radio_cuadrado
+print("El área es", area, "u²")
+```
+```
+n1 = float(input("Inserte los grados celcius a convertir: "))
+n2 = n1/5
+n3 = n2*9
+r = n3+32
+print(n1, "°C equivale a", r, "°F")
+```
+```
+suma = 0
+contador = 0
+maxcalif = 10
+while contador <maxcalif:
+    entrada=input("Inserte la calificación: ").strip()
+    if entrada.lower() == "fin":
+        break
+    calificacion = float(entrada)
+    if 0 <= calificacion <=10:
+        suma += calificacion
+        contador += 1
+    else:
+        print("Fuera de rango")
+if contador>0:
+    p=suma/contador
+    print("Promedio:", p)
+```
+```
+def max_min(lista):
+    return max(lista), min(lista)
+
+print(max_min([4, 7, 2, 9, 1]))
+```
+
+## Ejercicio 4: Operaciones con Arrrays
+
