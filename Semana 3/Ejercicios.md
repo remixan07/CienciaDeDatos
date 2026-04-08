@@ -3,6 +3,7 @@
 ## Ejercicio 1: Variables y Tipos de Datos
 
 ´´´
+
 entero = 25
 decimal = 3.1415926585
 booleano = False
