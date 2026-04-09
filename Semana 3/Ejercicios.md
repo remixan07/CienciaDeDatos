@@ -248,6 +248,43 @@ plt.show()
 ## Ejercicio 9: Análisis Exploratorio
 
 ```
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+df = sns.load_dataset('iris')
+
+print(df.info())
+print(df.head())
+
+print(df.describe())
+ 
+df.hist()
+plt.show()
+
+# 4. 
+corr = df.corr(numeric_only=True)
+print(corr)
+
+plt.figure()
+plt.imshow(corr)
+plt.colorbar()
+plt.title("Matriz de correlación")
+plt.show()
+ 
+sns.boxplot(x='species', y='sepal_length', data=df)
+plt.title("Boxplot por especie")
+plt.show()
+
+Q1 = df['sepal_length'].quantile(0.25)
+Q3 = df['sepal_length'].quantile(0.75)
+IQR = Q3 - Q1
+
+outliers = df[(df['sepal_length'] < Q1 - 1.5*IQR) | 
+              (df['sepal_length'] > Q3 + 1.5*IQR)]
+
+print("Outliers:")
+print(outliers)
 ```
 
 ## Ejercicio 10: Medidas de Tendencia Central
@@ -287,4 +324,4 @@ En este caso, Netflix todo el tiempo queiere conocer que contenido ven sus usuar
 
 Se buscaba responder: ¿qué contenido revisan más los usuarios?, ¿como ven los usuarios el contenido?. ¿que recomendar a los usuarios en base al contenido?
 
-Se usó análisis de comportamiento, clustering, machine learning y visualización de datos; y lo que descubrí fueron patrones de gustos, horarios de consumo, y preferencias por género, ayudando a mejorar recomendaciones personalizadas
+Se utilizaron técnicas tales como análisis de comportamiento, clustering, machine learning y visualización de datos; y los insights que encontré fueron patrones de gustos, horarios de consumo, y preferencias por género, ayudando a mejorar recomendaciones personalizadas
