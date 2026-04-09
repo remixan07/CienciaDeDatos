@@ -162,3 +162,92 @@ print(v2 / np.linalg.norm(v2))
 
 ## Ejercicio 6: DataFrames Báscio
 
+```
+import pandas as pd
+
+data = {
+    'nombre': ['Ana', 'Luis', 'María', 'Carlos', 'Sofia'],
+    'edad': [20, 22, 19, 21, 23],
+    'carrera': ['Ing', 'Ing', 'Lic', 'Ing', 'Lic'],
+    'promedio': [8.5, 9.0, 7.8, 8.2, 9.5]
+}
+
+df = pd.DataFrame(data)
+
+print(df['nombre'])
+
+print(df[df['promedio'] > 8.5])
+
+print(df.sort_values(by='edad'))
+
+df['aprobado'] = df['promedio'] >= 7
+print(df)
+
+print(df.groupby('carrera')['promedio'].mean())
+```
+
+## Ejercicio 7: Manipulación de Datos
+
+```
+df.loc[0, 'promedio'] = np.nan
+df['promedio'] = df['promedio'].fillna(df['promedio'].mean())
+
+df = df.drop_duplicates()
+
+df['edad_doble'] = df['edad'].apply(lambda x: x * 2)
+
+print(df.loc[0])
+print(df.iloc[0:3])
+
+df2 = df.copy()
+nuevo_df = pd.concat([df, df2])
+print(nuevo_df)
+```
+
+## Ejercicio 8: Matplotlib
+
+```
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+plt.figure()
+plt.plot(x, y, label="sin(x)")
+plt.title("Gráfico de Línea")
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.legend()
+plt.show()
+
+plt.figure()
+plt.scatter(x, y, label="puntos")
+plt.title("Gráfico de Dispersión")
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.legend()
+plt.show()
+
+data = np.random.randn(1000)
+plt.figure()
+plt.hist(data, bins=30, label="datos")
+plt.title("Histograma")
+plt.legend()
+plt.show()
+
+categorias = ['A', 'B', 'C']
+valores = [10, 20, 15]
+plt.figure()
+plt.bar(categorias, valores, label="valores")
+plt.title("Gráfico de Barras")
+plt.legend()
+plt.show()
+```
+
+## Ejercicio 9: Análisis Exploratorio
+
+```
+```
+
+## Ejercicio 10: Medidas de Tendencia Central
