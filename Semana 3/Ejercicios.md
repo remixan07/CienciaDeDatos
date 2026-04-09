@@ -124,3 +124,41 @@ print(max_min([4, 7, 2, 9, 1]))
 
 ## Ejercicio 4: Operaciones con Arrrays
 
+```
+import numpy as np
+
+arr1 = np.array([1, 2, 3, 4, 5])
+arr2 = np.array([5, 4, 3, 2, 1])
+
+print(arr1 + arr2)
+
+print(arr1 * 5)
+
+print(np.mean(arr1))
+print(np.median(arr1))
+print(np.std(arr1))
+
+print(np.unique(arr1))
+
+print(arr1.reshape(1, 5))
+```
+
+## Ejercicio 5: Álgebra con NumPy
+
+```
+v1 = np.array([1, 2, 3])
+v2 = np.array([4, 5, 6])
+
+print(np.dot(v1, v2))
+
+print(np.cross(v1, v2))
+
+print(np.linalg.norm(v1))
+print(np.linalg.norm(v2))
+
+print(v1 / np.linalg.norm(v1))
+print(v2 / np.linalg.norm(v2))
+```
+
+## Ejercicio 6: DataFrames Báscio
+
