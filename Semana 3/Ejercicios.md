@@ -251,3 +251,40 @@ plt.show()
 ```
 
 ## Ejercicio 10: Medidas de Tendencia Central
+
+| Datos | Media | Mediana | Moda |
+| :---: | :---: | :---: | :---: |
+| [5,3,8,3,7] | 5.2 | 5 | 3 |
+| [10,20,30,40] | 25 | 25 | --- |
+| [1,2,2,3,3,3,4] | 2.57 | 3 | 3 |
+
+## Ejercicio 11: Dispersión
+
+| Datos | Rango | Varianza | Desviación Estándar |
+| :---: | :---: | :---: | :---: |
+| [2,4,4,4,5,5,7,9] | 7 | 4 | 2 |
+| [1,3,5,7,9] | 8 | 8 | 2.8 |
+
+## Ejercicio 12: El Proceso de Data Science
+
+El ciclo crisp-dm es una metodología que se tuiliza para estructurar proyectos y minería de datos que guía al proceso mediante comprensión y preparación del negocio y de los datos; además del modelado, evaluación, e implementación
+
+Los pasos del proceso de ciencia de datos son:
+Comprensión del Problema - Definir el Objetivo
+Adquisición de Datos - Recopilar
+Preparación - Correcciones
+Explloración - Analizar
+Caracterpisticas - Dar Formato
+Modelado - Aplicar algoítmos
+Evaluación - Verificar su cumple
+Interpretación - Poner los resultados
+
+MVP en Ciencia de Datos se refiere a la simplificación de un modelo analítico que cuenta únicamente con las funcionalidades esenciales para resolver un problema y validar una hipótesus en base a datos reales
+
+## Ejercicio 13: Caso de Estudio
+
+En este caso, Netflix todo el tiempo queiere conocer que contenido ven sus usuarios, esto, para pdoer seguir recomendadno series y películas pra que sus usuarios sigan pagando una siscripción más cara que pagar cable para que luego no tengan todo el contendio o lo quiten, y luego aumenten el precio e incluyan comerciales y ahora tengas que pgar más para verlo sin comerciales y ahora ya no conviene el streaming, está más caro ya que ooagar cable asashahsahshasa (BOPRRAR)
+
+Se buscaba responder: ¿qué contenido revisan más los usuarios?, ¿como ven los usuarios el contenido?. ¿que recomendar a los usuarios en base al contenido?
+
+Se usó análisis de comportamiento, clustering, machine learning y visualización de datos; y lo que descubrí fueron patrones de gustos, horarios de consumo, y preferencias por género, ayudando a mejorar recomendaciones personalizadas
