@@ -65,8 +65,3 @@ print(saludar("Ricardo"))
 ```
 
 ## Actividad 3.2 Carga y Exploración de Datos
-
-```
-
-except ZeroDivisionError:
-    print("S E   H A   D E T E C T A D O   U N   E R R O R")
