@@ -70,5 +70,7 @@ https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%203/Actividad%203.2
 
 ## Actividad 3.3 Limpieza de Datos
 
+https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%203/Actividad%203.3.ipynb
+
 ## Actividad 3.4 Visualización Exploratoria
 
