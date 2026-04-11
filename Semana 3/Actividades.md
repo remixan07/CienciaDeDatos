@@ -74,3 +74,4 @@ https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%203/Actividad%203.3
 
 ## Actividad 3.4 Visualización Exploratoria
 
+https://github.com/remixan07/CienciaDeDatos/blob/main/Semana%203/Actividad%203.4.ipynb
