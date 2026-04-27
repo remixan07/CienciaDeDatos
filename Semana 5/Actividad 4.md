@@ -7,8 +7,8 @@ import pandas as pd
 
 import pandas as pd
 
-url = "https://raw.githubusercontent.com/datasciencedojo/datasets/master/CarData.csv"
-df_vehiculos = pd.read_csv(url)
+url = "https://raw.githubusercontent.com/datasciencedojo/datasets/master/CarData.zip"
+df_vehiculos = pd.read_zip(url)
 
 print(df_vehiculos.head())
 
